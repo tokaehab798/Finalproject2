@@ -1,0 +1,35 @@
+.edit-icon {
+    text-decoration: none;
+    position: absolute;
+    top: 5px;
+    left: 90%;
+    transform: translate(50%, 50%);
+    z-index: 2;
+    -webkit-transform: translate(50%, 50%);
+    -moz-transform: translate(50%, 50%);
+    -ms-transform: translate(50%, 50%);
+    -o-transform: translate(50%, 50%);
+}
+
+.circle {
+    position: absolute;
+    top: 5px;
+    left: 100%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white; /* White color for circle */
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-content {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-color: #157347;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,26 @@
+.edit-icon-container {
+    position: relative;
+}
+
+.edit-icon {
+    text-decoration: none;
+    position: absolute;
+    top: 5px;
+    left: 90%;
+    transform: translate(50%, -50%);
+    z-index: 2;
+}
+
+.circle {
+    position: absolute;
+    top: 5px;
+    left: 100%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white; /* White color for circle */
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
